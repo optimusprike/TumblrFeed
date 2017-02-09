@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4751A415FD8D9426145EC6C3 /* Pods_TumblrFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A060BE7AF7FB9EFA9E4D5519 /* Pods_TumblrFeed.framework */; };
+		CD32F6611E4BE999000D2E88 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32F6601E4BE999000D2E88 /* PhotoDetailsViewController.swift */; };
 		CD351E031E42A88B00DD7E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD351E021E42A88B00DD7E62 /* AppDelegate.swift */; };
 		CD351E081E42A88B00DD7E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD351E061E42A88B00DD7E62 /* Main.storyboard */; };
 		CD351E0A1E42A88B00DD7E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD351E091E42A88B00DD7E62 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		54791C654FEA9DD723753916 /* Pods-TumblrFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrFeed/Pods-TumblrFeed.debug.xcconfig"; sourceTree = "<group>"; };
 		A060BE7AF7FB9EFA9E4D5519 /* Pods_TumblrFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblrFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD32F6601E4BE999000D2E88 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		CD351DFF1E42A88B00DD7E62 /* TumblrFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TumblrFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD351E021E42A88B00DD7E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD351E071E42A88B00DD7E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				CD351E021E42A88B00DD7E62 /* AppDelegate.swift */,
 				CD351E061E42A88B00DD7E62 /* Main.storyboard */,
 				CD351E091E42A88B00DD7E62 /* Assets.xcassets */,
+				CD32F6601E4BE999000D2E88 /* PhotoDetailsViewController.swift */,
 				CD351E0B1E42A88B00DD7E62 /* LaunchScreen.storyboard */,
 				CD351E0E1E42A88B00DD7E62 /* Info.plist */,
 				CD351E301E42AB2D00DD7E62 /* PhotosViewController.swift */,
@@ -340,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD32F6611E4BE999000D2E88 /* PhotoDetailsViewController.swift in Sources */,
 				CD351E031E42A88B00DD7E62 /* AppDelegate.swift in Sources */,
 				CD351E351E42B26200DD7E62 /* PhotoCell.swift in Sources */,
 				CD351E311E42AB2D00DD7E62 /* PhotosViewController.swift in Sources */,
